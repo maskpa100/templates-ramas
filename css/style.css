@@ -355,3 +355,55 @@ footer 	.telephone {
 	}
 
 }
+/* Начало Ошибка 404 */
+.error-404{
+	text-align: center;
+}
+.error-404 div{
+	margin: 86px auto;
+    max-width: 1137px;
+}
+.error-404 div img{
+	width: 100%;
+}
+.error-404 h1{
+	font-weight: 800;
+	font-size: 128px;
+	line-height: 150%;
+	margin-top: -122px;
+	color: #F66303;
+}
+.error-404 p{
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 150%;
+}
+.error-404 button{
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 150%;
+	color:#FFFFFF;
+	background-color: #F66303;
+	border-radius: 10px;
+	padding: 15px 50px;
+	margin: 43px 0px 134px 0px;
+}
+@media (max-width: 950px) {
+	.error-404 div{
+		margin: 75px auto;
+	    padding: 0px 25px;
+	}
+	.error-404 h1{
+		font-size: 80px;
+		margin-top: -67px;
+	}
+	.error-404 p{
+		font-size: 24px;
+		margin: 20px 0px;
+	}
+	.error-404 button{
+		margin: 41px 0px 12px 0px;
+	}
+}
+
+/* Конец Ошибка 404 */
