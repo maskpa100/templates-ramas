@@ -408,3 +408,193 @@ footer 	.telephone {
 }
 
 /* Конец Ошибка 404 */
+/* Начало страницы Контакты */
+.contacts_map{
+	position: relative;
+}
+.contacts_map img{
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+.contacts_map-text{
+	position: absolute;
+	right: 12%;
+	top: 24%;
+	background: #FFFFFF;
+	box-shadow: 10px 4px 40px rgba(0, 0, 0, 0.15);
+	border-radius: 30px;
+	letter-spacing: 0.01em;
+	padding: 40px 80px 0px 68px;
+}
+.contacts_map h4{
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 34px;
+	color: #F66303;
+	margin-bottom: 21px;
+}
+.contacts_map-office {
+	margin-bottom: 26px;
+}
+.contacts_map-barn {
+	margin-bottom: 50px;
+}
+.contacts_map span{
+	display: block;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 25px;
+}
+.contacts_map p{
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 25px;
+}
+.contacts{
+	display: flex;
+	margin-bottom: 80px;
+}
+.contacts_info{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	letter-spacing: 0.01em;
+	width: 40%;
+	margin-left: 61px;
+}
+.contacts_us{
+	margin-left: 27px;
+}
+.contacts_info-address p:first-child, .contacts_info-chart p:first-child, .contacts_info-requisites p:first-child{
+	font-weight: 600;	
+}
+.contacts_info-address {
+	margin-top: 45px;
+}
+.contacts_info-chart {
+	margin-top: 27px;
+}
+.contacts_info-requisites {
+	margin-top: 79px;
+}
+.contacts_us-column input{
+	display: inline-block;
+	margin-top: 29px;
+}
+.contacts_us input{
+	border: 1px solid #272727;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #000000;
+	padding: 11px 0px 11px 29px;
+}
+.contacts_us-title{
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 31px;
+	letter-spacing: 0.01em;
+	margin-top: 44px;
+}
+.contacts_us-input-name{
+}
+.contacts_us-input-telephone {
+	margin-left: 18px;
+
+}
+.contacts_us-input-messages {
+	resize: none; 
+	vertical-align: middle;
+	height: 112px;
+	width: calc(100% - 29px * 2);
+	border: 1px solid #272727;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #000000;
+	padding: 20px 29px;
+	margin-top: 15px;
+}
+.contacts_us button{
+	display: block;
+	border-radius: 10px;
+	background: #F66303;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	color: #FFFFFF;
+	padding: 12px 59px;
+	margin-top: 26px;
+}
+@media (max-width: 1350px) {
+.contacts_map{
+	display: none;
+	}
+}
+@media (max-width: 1440px) {
+	.contacts_info{
+		max-width: 420px;
+	}
+	.contacts_us{
+		margin: 0px 61px;
+	}	
+	.contacts{
+		justify-content: space-around;
+	}
+	.contacts_us-column{
+		display: inline-block;
+		width: 95%;
+	}
+	.contacts_us-column input{
+		width: calc(50% - 43px);
+	}
+	.contacts_us-input-messages {
+    	width: calc(95% - 29px * 2);
+	}
+}
+@media (max-width: 1024px) {
+	.contacts_us {
+	    margin: 0px 29px;
+	}
+	.contacts{
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		margin-left: 33px;
+	}
+	.contacts_info-requisites {
+    	margin-top: 30px;
+	}
+	.contacts_info {
+    	width: 100%;
+    }
+}
+@media (max-width: 768px) {
+	.contacts_us-column {
+	    width: 100%;
+	}
+	.contacts_us-column input {
+    	width: calc(100% - 29px );
+	}
+	.contacts_us-input-telephone {
+    	margin-left: 0px;
+	}
+	.contacts_us-input-messages {
+    	width: calc(100% - 29px * 2);
+	}
+	.page {
+    	margin-left: 0px;
+	}
+	.contacts_info {
+	    margin-left: 0px;
+	}
+	.contacts_info-address {
+    	margin-top: 28px;
+	}
+	.contacts_us {
+	    margin: 10px 37px 0px 0px;
+	}
+}
+/*Конец страницы Контакты */
